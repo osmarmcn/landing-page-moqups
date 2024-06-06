@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 7%;
+    border-bottom: 1px solid lightgray;
+    max-width: 100%;
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+}
+
+.navbar h1{
+    font-size: 3rem;
+}
+
+.navbar .btn-nav{
+   display: flex;
+   gap: 1.5rem;
+}
+
+.navbar .btn-nav button{
+    padding: .8rem 2rem;
+    font-weight: bold;
+}
+
+.texto{
+    padding: 9rem 7% 5rem;
+    border-bottom: 1px solid lightgray;
+
+}
+
+.texto .text{
+    display: flex;
+
+    flex-direction: column;
+    max-width: 30%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.texto .text h2{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 3rem;
+    margin-bottom: 2.5rem;
+}
+
+
+
+.plano{
+    display: flex;
+    justify-content: center;
+    align-items: normal;
+    gap: 2rem;
+}
+
+.plano .info{
+    display: flex;
+    margin-top: 1.5rem;
+}
+
+.plano .info .triangulo{
+    height: 0;
+    width: 0;
+    border-top: 25px solid transparent;
+    border-bottom: 25px solid transparent;
+    border-right: 25px solid lightgray;
+}
+
+.plano .info .info-conteudo{
+  
+    padding: -20px 4rem;
+}
+
+.plano .info .info-conteudo p{
+    background: lightgray;
+    padding: .75rem 2em;
+    color: black;
+    font-weight: bold;
+}
+.plano .mes{
+    display: flex;
+    justify-content: center;
+    padding: 3rem 0;
+   
+  
+}
+/* .plano .mes .info{
+    position: absolute;
+    top: 0;
+    left: 200px;
+} */
+/* .plano .mes::after{
+    content: "save up to 20%";
+    margin-left: 50px;
+    height: 0;
+    width: 0;
+    border-top: 25px solid transparent;
+    border-bottom: 25px solid transparent;
+    border-right: 25px solid #ABA8B2;
+} */
+
+.plano .mes button{
+    padding: 1rem 3rem;
+}
+
+.plano .mes button:first-child{
+    border-radius: 10px 0 0 10px;
+}
+
+.plano .mes button:last-child{
+    border-radius: 0 10px 10px 0;
+}
+
+.planos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 4rem 20%;
+}
+
+.planos .plano-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    border: 1px solid rgba(128, 128, 128, 0.735);
+    position: relative;
+
+    padding: 1rem 0;
+    border-radius: 15px;
+}
+
+
+.planos .plano-box h5{
+    font-size: 2rem;
+    margin-top: 4rem;
+    margin-bottom:2rem;
+}
+.planos .plano-box .paragrafo{
+    border-bottom: 1px solid lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   padding-bottom: 4rem;
+}
+
+.planos .plano-box .paragrafo p{
+    text-align:left;
+    font-size: 1rem;
+    
+    width: 50%;
+}
+
+.planos .plano-box button{
+    padding: 1rem 3rem;
+}
+
+.planos .plano-box .valor{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0;
+}
+
+
+
+.planos .plano-box .valor .p-text{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.planos .plano-box .valor span:first-child{
+    font-weight: bold;
+    color: black;
+    font-size: 3rem;
+}
+
+.planos .plano-box .valor span:last-child{
+    font-size: 1rem;
+    width: 20%;
+}
+
+.planos .plano-box .icon{
+    position: absolute;
+    top: -30px;
+    border-radius: 50%;
+    border: 1px solid gray;
+    padding: 1rem;
+    z-index: 1;
+    background: lightgray;
+}
+
+.planos .plano-box .icon ion-icon{
+    font-size: 2rem;
+    
+}

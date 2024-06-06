@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 3%;
+    border-bottom: 1px solid lightgray;
+    max-width: 100%;
+}
+
+.navbar-form a{
+    text-decoration: none;
+    color: black;
+}
+
+.navbar-form a h1{
+    font-size: 3rem;
+}
+
+.navbar-form span{
+    font-size: 2.5rem;
+}
+
+.container{
+    display: flex;
+    gap: 2.5rem;
+    padding: 3rem 10%;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    max-width: 30%;
+}
+
+ .time{
+    display: flex;
+    flex-direction: column;
+}
+
+.time .time-text{
+    font-size: 2rem;
+    display: flex;
+    gap: 3.5rem;
+}
+
+.time .time-text span{
+    color: gray;
+    
+}
+
+.content-texto{
+   text-align: left;
+
+}
+
+.content-texto h1{
+    font-size: 3rem;
+    margin-bottom: 3rem;
+}
+
+.webinar{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.webinar h3{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.tempo-box{
+    display: flex;
+    gap: 1rem;
+
+}
+
+.tempo-box .day {
+    text-align: center;
+    
+}
+
+.tempo-box .day span{
+    border: 3px solid lightgray;
+    padding: .8rem 1.8rem;
+   border-radius: 5px;
+   font-weight: bold;
+   font-size: 1.3rem;
+}
+
+.tempo-box .day p{
+    margin-top: 10px;
+}
+
+.webinar button{
+    width: 50%;
+    padding: 1rem 2rem;
+    font-weight: bold;
+    border: 3px solid black;
+}
+    
+    
+
+
+
+
+
+
+ 
+
+
+
+
